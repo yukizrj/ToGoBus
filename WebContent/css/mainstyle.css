@@ -1,0 +1,269 @@
+@CHARSET "UTF-8";
+*{
+	color:#FFF;
+}
+option{
+	color:#333;
+}
+.mymainWrapper {
+	padding: 0px;
+	margin: 10px;
+}
+.leftWrapper{
+	padding: 0px;
+	height: 400px;
+	background-image: url("search.jpg");
+	background-color: rgba(50, 50, 50, 1);
+	border-top: 5px solid #eecc11;	
+	float: left;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.rightWrapper{
+	padding: 0px;
+	background-color: rgba(50, 50, 50, 1);
+	border-top: 5px solid #d9534f;
+	height: 300px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	float: right;
+}
+.tableWrapper{
+	padding: 0px;
+	margin:10px;
+	background-color: rgba(50, 50, 50, 0.9);
+	border-top: 5px solid #ff8080;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom: 5px solid #ff8040;
+}
+.tableWrapper2{
+	padding: 0px;
+	margin:10px;
+	background-color: rgba(50, 50, 50, 0.9);
+	border-top: 5px solid #ffff00;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom: 5px solid #00ff00;
+}
+.tableWrapper3{
+	padding: 0px;
+	margin:10px;
+	background-color: rgba(50, 50, 50, 0.9);
+	border-top: 5px solid #0000ff;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom: 5px solid #ff00ff;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.tableWrapper td a{
+	color:  #f0ad4e;
+	font-size: 16px;
+	font-weight:bold;
+}
+.tableWrapper2 td a{
+	color:  #f0ad4e;
+	font-size: 16px;
+	font-weight:bold;
+}
+.tableWrapper3 td a{
+	color:  #f0ad4e;
+	font-size: 16px;
+	font-weight:bold;
+}
+.centerformWrapper{
+	padding: 0px;
+	margin-left:250px;
+	background: #f29107;
+	color: #fff;
+	font-weight: 400;
+	font-size: 1em;
+	padding-bottom:60px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.centertitle{
+	color:#ffffff;
+	font-size:20px;
+	font-weight:500;
+	text-align:center;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.centertitle a{
+	text-decoration:none;
+	color:#ffffff;
+}
+.formtitle{
+	color:#000000;
+	font-size:20px;
+	font-weight:500;
+	text-align:center;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.formtitle a{
+	text-decoration:none;
+	color:#000000;
+}
+.centerform label{
+	color:#FFF;
+}
+.errordiv{
+	border-radius: 20px;
+	margin-left: 10%;
+}
+.errordiv p{
+	color:  #f0ad4e;
+	font-size:16px;
+	font-weight:bold;
+}
+.errordiv h4{
+	color:  #f0ad4e;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.logOptions{
+	background-color:#d9534f;
+}
+/*CSS FOR ANIMATIONS*/
+.logOptions a:hover{
+	color: #428bca;
+}
+
+.myfooter{
+	margin-top:100px;
+	height:30px;
+	text-transform:uppercase;
+	text-align:center;
+	padding-top:6px;
+	background-color: rgba(50, 50, 50, 0.5);
+}
+/*ANIMATION CSS ENDS HERE*/
+
+/*Media queries*/
+	
+@media (min-width:768px) and (max-width:1024px){
+	.mymainWrapper{
+		padding:0px;
+		width: 768px;
+	}
+	.leftWrapper{
+		width: 768px;
+	}
+	.rightWrapper{
+		width: 768px;
+		margin-right:0px;
+		margin-top:10px;
+	}
+	.tableWrapper{
+		width: 768px;
+	} 
+	.centerformWrapper{
+		width: 400px;
+		margin-left:165px;
+	}
+	.centertitle{
+		width:400px;
+	}
+	.myfooter{
+	margin-top:100px;
+		width:768px;
+		font-size:14px;
+		border-radius:0px;
+	}
+}
+@media (min-width:600px) and (max-width:767px){
+	.mymainWrapper{
+		padding:0px;
+		width: 600px;
+	}
+	.leftWrapper{
+		width: 600px;
+	}
+	.rightWrapper{
+		width: 600px;
+		margin-top:10px;
+	}
+	.tableWrapper{
+		width: 600px;
+	} 
+	.centerformWrapper{
+		width: 600px;
+		margin:0px;
+	}
+	.centertitle{
+		width:575px;
+	}
+	.myfooter{
+	margin-top:100px;
+		width:600px;
+		font-size:14px;
+		border-radius:0px;
+	}
+}
+@media (min-width:480px) and (max-width:599px){
+	.mymainWrapper{
+		padding:0px;
+		width: 480px;
+	}
+	.leftWrapper{
+		width: 480px;
+	}
+	.rightWrapper{
+		width: 480px;
+		margin-top:10px;
+	}
+	.tableWrapper{
+		width: 480px;
+	} 
+	.centerformWrapper{
+		width: 480px;
+		margin:0px;
+	}
+	.centertitle{
+	margin-top:100px;
+		width:455px;
+	}
+	.myfooter{
+		width:480px;
+	}
+}
+@media (max-width:479px){	
+	.mymainWrapper{
+		padding:0px;
+		width: 300px;
+	}
+	.leftWrapper{
+		width: 300px;
+	}
+	.rightWrapper{
+		width: 300px;
+		margin-top:10px;
+	}
+	.tableWrapper{
+		width: 300px;
+	} 
+	.centerformWrapper{
+		width: 300px;
+		margin:0px;
+	}
+	.centertitle{
+		width:275px;
+	}
+	.myfooter{
+		margin-top:100px;
+		width:300px;
+		font-size:8px;
+	}
+}
+
+
