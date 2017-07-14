@@ -1,5 +1,5 @@
 # ToGoBus
-ToGoBus App use Servlet technique
+ToGoBus App for bus ticket booking and management of buses
 
 ## Use Technique
 * Servlet
